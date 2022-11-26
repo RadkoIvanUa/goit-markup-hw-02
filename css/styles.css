@@ -1,0 +1,91 @@
+:root {
+    /* iris */
+    --primary-brand-color: #4D5AE5; 
+    /* navy blue */
+    --dark-color: #2E2F42;
+    /* slate */
+    --body-color: #434455;
+    /* light slate */
+    --subtle-color: #8E8F99;
+    /* cornflower */
+    --accent-color: #E7E9FC;
+    /* cloud */
+    --light-color: #F4F4FD;
+}
+
+
+/* header */
+
+.logo.start{
+    color: var(--primary-color);
+}
+.logo.end{
+    color: var(--dark-color);
+}
+
+.nav-list a{
+    color: var(--dark-color);
+}
+
+.contacts a{
+    color: var(--body-color);
+}
+
+/* hero */
+
+.hero{
+    background-color: var(--dark-color)
+}
+
+.hero-title{
+    color: #ffffff;
+}
+
+.btn{
+    background-color: var(--primary-brand-color);
+    color: #ffffff;
+}
+
+/* benefits */
+
+.benefits h3{
+    color: var(--dark-color);
+}
+
+.benefits p {
+    color: var(--body-color);
+}
+
+/* What are we doing */
+
+.image-section h2{
+    color: #2E2F42;
+}
+
+/* Our Team */
+
+.team-section{
+    background-color: var(--light-color);
+}
+.team-section h2{
+    color: var(--dark-color);
+}
+
+.team-section h3{
+    color: var(--dark-color);
+}
+
+.team-section p{
+    color: var(--body-color);
+}
+
+
+
+
+/* footer */
+.footer{
+    background-color: var(--body-color);
+}
+.footer p{
+ color: var(--accent-color);
+}
