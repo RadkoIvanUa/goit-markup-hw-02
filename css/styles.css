@@ -1,3 +1,4 @@
+/* color scheme */
 :root {
     /* iris */
     --primary-brand-color: #4D5AE5; 
@@ -14,70 +15,104 @@
 }
 
 
-/* header */
-
-.logo.start{
-    color: var(--primary-color);
-}
-.logo.end{
-    color: var(--dark-color);
-}
-
-.nav-list a{
-    color: var(--dark-color);
-}
-
-.contacts a{
+body{
     color: var(--body-color);
 }
 
-/* hero */
 
+/* header */
+
+.logo{
+    color: var(--dark-color);
+}
+.logo-start{
+    color: var(--primary-brand-color);
+}
+
+.logo-end{
+    color: var(--dark-color);
+}
+
+
+.nav-list .link{
+    color: var(--dark-color);
+}
+
+.contacts .link{
+    color: var(--body-color);
+}
+
+.active-page .link {
+    color: var(--primary-brand-color);
+    
+}
+
+
+.nav-list .link:hover,
+.contacts .link:hover,
+.nav-list .link:focus,
+.contacts .link:focus{
+    color: var(--primary-brand-color);
+}
+
+
+/* button cursor */
+
+.hero-btn,
+.filter-btn{
+    cursor: pointer;
+}
+
+
+
+
+/* all main */
+.section-title,
+.section-subtitle {
+    color: var(--dark-color);
+}
+
+
+
+
+/* hero */
 .hero{
     background-color: var(--dark-color)
 }
 
-.hero-title{
+.hero-title {
     color: #ffffff;
 }
 
-.btn{
+.hero-btn {
     background-color: var(--primary-brand-color);
     color: #ffffff;
 }
 
-/* benefits */
 
-.benefits h3{
-    color: var(--dark-color);
-}
 
-.benefits p {
-    color: var(--body-color);
-}
 
-/* What are we doing */
+/* index.html main*/
 
-.image-section h2{
-    color: #2E2F42;
-}
-
-/* Our Team */
-
-.team-section{
+.team-section {
     background-color: var(--light-color);
 }
-.team-section h2{
-    color: var(--dark-color);
+
+
+
+
+
+/* portfolio page */
+.filter-btn{
+    background-color: var(--light-color);
+    color: var(--primary-brand-color);
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    background-color: var(--primary-brand-color);
+    color: #ffffff;
 }
 
-.team-section h3{
-    color: var(--dark-color);
-}
-
-.team-section p{
-    color: var(--body-color);
-}
 
 
 
@@ -86,6 +121,6 @@
 .footer{
     background-color: var(--body-color);
 }
-.footer p{
- color: var(--accent-color);
+.footer-text{
+    color: var(--accent-color);
 }
