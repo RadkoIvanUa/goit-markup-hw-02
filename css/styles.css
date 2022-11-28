@@ -1,130 +1,178 @@
-/* color scheme */
-:root {
-    /* iris */
-    --primary-brand-color: #4D5AE5; 
-    /* navy blue */
-    --dark-color: #2E2F42;
-    /* slate */
-    --body-color: #434455;
-    /* light slate */
-    --subtle-color: #8E8F99;
-    /* cornflower */
-    --accent-color: #E7E9FC;
-    /* cloud */
-    --light-color: #F4F4FD;
+
+:root{  
+/* Color Scheme  */
+
+    /* Primary Brand */
+    --iris-color: #4D5AE5;
+    /* Dark */
+    --navy-blue-color: #2E2F42;
+    /* Success */
+    --green-color: #31D0AA;
+    /* Text */
+    --slate-color: #434455;
+    /* Subtle Text */
+    --light-slate-color: #8E8F99;
+    /* Accent */
+    --cornflower-color: #E7E9FC;
+    /* Light */
+    --cloud-color: #F4F4FD;
 }
 
 
 body{
-    color: var(--body-color);
+    color: var(--slate-color);
+    font-family:'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
+}
+
+
+/* Null Style */
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+
+
+/* Default Style */
+.btn {
+    cursor: pointer;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue-color);
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+}
+
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.active-page{
+    color: var(--iris-color);
 }
 
 
 
 /* header */
+.header{
+    background-color: #ffffff;
+}
 
 .logo{
-    color: var(--dark-color);
+    font-family: 'Raleway', sans-serif;
 }
+
 .logo-start{
-    color: var(--primary-brand-color);
+color: var(--iris-color);
 }
 
-.logo-end{
-    color: var(--dark-color);
+.header-logo .logo-end{
+    color: var(--navy-blue-color);
 }
 
-.footer .logo-end{
-    color: var(--light-color) ;
+.nav-link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
 }
 
-.nav-list .link{
-    color: var(--dark-color);
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--iris-color);
 }
 
-.contacts .link{
-    color: var(--body-color);
+.contacts-link{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
 }
 
-.active-page .link {
-    color: var(--primary-brand-color);
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--iris-color);
+}
+
+
+/* index.html main */
+    /* hero */
     
-}
-
-
-.nav-list .link:hover,
-.contacts .link:hover,
-.nav-list .link:focus,
-.contacts .link:focus{
-    color: var(--primary-brand-color);
-}
-
-
-/* button cursor */
-
-.hero-btn,
-.filter-btn{
-    cursor: pointer;
-}
-
-
-
-
-/* all main */
-.section-title,
-.section-subtitle {
-    color: var(--dark-color);
-}
-
-
-
-
-/* hero */
 .hero{
-    background-color: var(--dark-color);
+    background-color: var(--navy-blue-color);
 }
 
 .hero-title{
-    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
-.hero-btn {
-    background-color: var(--primary-brand-color);
-    color: #ffffff;
+.hero-btn{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    border: none;
+    background: var(--iris-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
-
-
     
-
-/* index.html main*/
-
-.team-section {
-    background-color: var(--light-color);
+    /* Benefits Section */
+    /* Services Section */
+    /* Team Section */
+.team{
+    background-color: var(--cloud-color);
 }
-
-
 
 
 
 /* portfolio.html main */
-.filter-btn{
-    background-color: var(--light-color);
-    color: var(--primary-brand-color);
-}
-.filter-btn:hover,
-.filter-btn:focus{
-    background-color: var(--primary-brand-color);
-    color: #ffffff;
-}
 
 
 
 
-
-/* footer */
+/* Footer */
+    
 .footer{
-    background-color: var(--dark-color);
+    background-color: var(--navy-blue-color);
 }
+
+.footer-logo .logo-end{
+    color: var(--cloud-color);
+}
+
 .footer-text{
-    color: var(--accent-color);
+    color: var(--cornflower-color);
 }
+
+    
+
+     
+        
+
