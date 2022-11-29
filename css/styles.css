@@ -75,6 +75,7 @@ body{
 
 
 /* header */
+
 .header{
     background-color: #ffffff;
 }
@@ -150,8 +151,13 @@ color: var(--iris-color);
 }
     
     /* Benefits Section */
+    
     /* Services Section */
+    
+    
+    
     /* Team Section */
+    
 .team{
     background-color: var(--cloud-color);
 }
@@ -159,7 +165,6 @@ color: var(--iris-color);
 
 
 /* portfolio.html main */
-
     /* Filter */
 
 .filter-btn{
